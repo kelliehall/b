@@ -9,7 +9,6 @@
     color: #c9e4ca;
     float: left;
 }
-
 .about {
   float: left;
   width: 45%;
@@ -48,4 +47,11 @@
 }
 .homeContent p {
   margin: 0 0 .75em 0;
+}
+.technology {
+    clear: both;
+    padding: 1em;
+}
+.technology .col-3 p {
+    line-height: .5em;
 }
