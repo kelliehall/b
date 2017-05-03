@@ -684,60 +684,6 @@ input.button {
   float: left;
 }
 
-/* line 9, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.col-1 {
-  width: 45%;
-  padding: 0 5% 0 2.5%;
-}
-
-/* line 13, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.col-2, .col-3 {
-  width: 27.5%;
-  padding: 0 2.5%;
-}
-
-/* line 18, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.homeContent h2 {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-/* line 22, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.homeContent h3 {
-  font-size: 1.35rem;
-  font-weight: 400;
-  margin-bottom: .5em;
-}
-/* line 27, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.homeContent a {
-  text-decoration: none;
-  color: #c9e4ca;
-}
-/* line 30, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.homeContent a:hover {
-  color: #55828b;
-}
-/* line 34, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.homeContent .date {
-  font-size: .8em;
-  margin-bottom: 2em;
-  color: #87bba2;
-}
-/* line 39, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.homeContent p {
-  margin: 0 0 .75em 0;
-}
-
-/* line 43, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.about {
-  padding: 0 7.5% 0 0;
-}
-/* line 45, /var/www/code/blog/app/assets/stylesheets/_welcome.css.scss */
-.about a {
-  color: #55828b;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 /* line 6, /var/www/code/blog/app/assets/stylesheets/_post_projects.css.scss */
 #postsWrapper {
   padding: 3em 0;

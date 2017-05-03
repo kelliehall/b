@@ -9,3 +9,43 @@
     color: #c9e4ca;
     float: left;
 }
+
+.about {
+  float: left;
+  width: 45%;
+  padding: 0 7.5% 0 0;
+}
+.about a {
+  color: #55828b;
+  font-weight: 700;
+  text-decoration: none;
+}
+.posts, .projects{
+  float: left;
+  width: 27.5%;
+  padding: 0 2.5%;
+}
+.homeContent h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.homeContent h3 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
+.homeContent a {
+  text-decoration: none;
+  color: #c9e4ca;
+}
+.homeContent a:hover {
+  color: #55828b;
+}
+.homeContent .date {
+  font-size: .8em;
+  margin-bottom: 2em;
+  color: #87bba2;
+}
+.homeContent p {
+  margin: 0 0 .75em 0;
+}
