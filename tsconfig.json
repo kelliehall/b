@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "allowUnusedLabels": false,
         "baseUrl": ".",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
@@ -10,6 +11,7 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "noEmitHelpers": false,
+        "noImplicitReturns": true,
         "removeComments": false,
         "sourceMap": true,
         "target": "es5",
