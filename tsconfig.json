@@ -1,27 +1,28 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "outDir": "dist",
-    "rootDir": ".",
-    "sourceMap": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "moduleResolution": "node",
-    "types": [
-      "core-js",
-      "node"
+    "compilerOptions": {
+        "baseUrl": ".",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "dom",
+            "es5"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmitHelpers": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es5",
+        "types": [
+            "jasmine",
+            "node",
+            "bootstrap",
+            "core-js",
+            "lodash"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "tmp"
     ]
-  },
-  "exclude": [
-    "node_modules"
-  ],
-  "awesomeTypescriptLoaderOptions": {
-    "useWebpackText": true
-  },
-  "compileOnSave": false,
-  "buildOnSave": false,
-  "atom": {
-    "rewriteTsconfig": false
-  }
 }
