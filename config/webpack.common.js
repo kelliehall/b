@@ -54,7 +54,8 @@ config.plugins = [
     new webpack.ProvidePlugin({
         jQuery: 'jquery',
         $: 'jquery',
-        jquery: 'jquery'
+        jquery: 'jquery',
+        Tether: 'tether'
     }),
     new webpack.NoErrorsPlugin(),
     new webpack.ContextReplacementPlugin(

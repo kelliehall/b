@@ -1,32 +1,11 @@
-<header class="top">
-	<!--<div class="head-container container-fluid">
-		<div class="header-left col-sm-5">
-			<header class="header row">
-				<img src="assets/img/default-logo-pic.png" class="logo">
-
-				<div class="site-header">
-					<h1 class="corp">{{company?.companyName}}</h1>
-
-					<div class="site-and-date clearfix">
-						<div class="pull-left">{{ todayDate.toDateString() | formatHeader}}
-						</div>
-					</div>
-				</div>
-			</header>
-		</div>
-		<div class="header-right col-sm-7" *ngIf="!(isError$ | async)">
-			<div class="row">
-				<div class="header-menu">
-					<nav class="navbar-default">
-						<ul id="login-menu" class="nav navbar-nav navbar-right">
-							<li class="dropdown" app-site-selector></li>
-							<li class="dropdown" app-usermenu [username]="username"></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>-->
+<header id="mainNav" class="clearfix">
+	<a class="name" [routerLink]="['/']">Kellie Hall</a>
+	<nav>
+		<a [routerLink]="['/']">Home</a>
+		<a [routerLink]="['/posts']">Posts</a>
+		<a [routerLink]="['/projects']">Projects</a>
+		<a [routerLink]="['/contact']">Contact</a>
+	</nav>
 </header>
 <main>
 	<div class="container-fluid">
