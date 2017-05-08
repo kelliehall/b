@@ -307,11 +307,10 @@ select {
 button,
 html input[type="button"],
 input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */
+.submitBtn {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
 }
 
 /**
@@ -642,7 +641,7 @@ textarea {
 }
 
 /* line 158, /var/www/code/blog/app/assets/stylesheets/application.css.scss */
-input[type='submit'], .button {
+.submitBtn, .button {
   outline: none;
   background: transparent;
   border: 2px solid #7dba84;
@@ -653,7 +652,7 @@ input[type='submit'], .button {
   padding: 1em 2em;
 }
 /* line 167, /var/www/code/blog/app/assets/stylesheets/application.css.scss */
-input[type='submit']:hover, .button:hover {
+.submitBtn:hover, .button:hover {
   border: 2px solid #55828b;
   color: #55828b;
 }

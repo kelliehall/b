@@ -18,7 +18,7 @@
 	<hr>
 	<projects></projects>
 </div>
-<div class="technology col-9 offset-1">
+<!--<div class="technology col-9 offset-1">
 	<div class="col-3">
 		<h4>Languages</h4>
 		<hr>
@@ -34,6 +34,11 @@
 		</p>
 	</div>
 	<div class="col-3">
+		<h4>Frameworks</h4>
+		<hr>
+		<p *ngFor="let fw of frameworks">
+			<i class="fa" aria-hidden="true" [ngClass]="fw.icon"></i> {{fw.skill}}
+		</p>
 		<h4>OS</h4>
 		<hr>
 		<p *ngFor="let x of os">
@@ -47,4 +52,4 @@
 			<i class="fa" aria-hidden="true" [ngClass]="item.icon"></i> {{item.skill}}
 		</p>
 	</div>
-</div>
+</div>-->
