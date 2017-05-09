@@ -1,7 +1,8 @@
-/node_modules/
+client/node_modules/
+client/coverage
 /dist/
 /npm-debug.log
 /.vscode
 /ideas
 /coverage
-/src/app/secret
+client/src/app/secret/secret.service.ts
