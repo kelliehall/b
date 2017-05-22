@@ -25,8 +25,8 @@ export class ContactComponent implements OnInit {
         //do nothing
     }
 
-    disableSave(): boolean {
-        return false;
+    disableSend(): boolean {
+        return this.contactForm.valid;
     }
 
     send(): void {
