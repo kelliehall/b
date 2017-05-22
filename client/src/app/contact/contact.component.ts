@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { Http, Response, RequestOptionsArgs, RequestOptions, Headers } from '@angular/http';
 import { SecretService } from '../secret';
@@ -8,7 +8,7 @@ import { SecretService } from '../secret';
     template: require('./contact.component.html')
 })
 
-export class ContactComponent implements OnInit {
+export class ContactComponent {
     contactForm: FormGroup;
 
     constructor(private _fb: FormBuilder,
@@ -21,11 +21,7 @@ export class ContactComponent implements OnInit {
         });
     }
 
-    ngOnInit(): void {
-        //do nothing
-    }
-
-    disableSend(): boolean {
+    isValid(): boolean {
         return this.contactForm.valid;
     }
 

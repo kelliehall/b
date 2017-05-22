@@ -9,6 +9,6 @@
         <label for="message">Message</label>
         <textarea type="text" formControlName="message" id="message"></textarea><br>
 
-        <button class="submitBtn" type="submit" [disabled]="disableSend()">Send Message</button>
+        <button class="submitBtn" type="submit" [disabled]="isValid()">Send Message</button>
     </form>
 </div>
