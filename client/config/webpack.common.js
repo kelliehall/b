@@ -30,7 +30,7 @@ config.module = {
             test: /\.json$/,
             loader: 'json'
         },
-        
+
         {
             test: /\.scss$/,
             loader: 'style!css!sass!resolve-url!sass?sourceMap'
@@ -59,8 +59,8 @@ config.plugins = [
     }),
     new webpack.NoErrorsPlugin(),
     new webpack.ContextReplacementPlugin(
-        /angular(\\|\/)core(\\|\/)(esm(\\|\/)src|src)(\\|\/)linker/,
-        __dirname
+        /angular(\\|\/)core(\\|\/)@angular/,
+        path.resolve(__dirname, '../src')
     ),
     new CopyWebpackPlugin([
         { from: './src/app/assets', to: 'assets' }
