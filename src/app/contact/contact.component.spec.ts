@@ -1,5 +1,6 @@
 import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
 import { TestBed, inject, ComponentFixture } from '@angular/core/testing';
+import { FormsModule, ReactiveFormsModule, FormGroup, FormControl } from '@angular/forms';
 import {
     RequestOptions,
     Http,
@@ -10,7 +11,7 @@ import {
 } from '@angular/http';
 import { MockBackend, MockConnection } from '@angular/http/testing';
 import { Observable, BehaviorSubject } from 'rxjs';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { ContactComponent } from './';
 import { SecretService } from '../secret';
 
@@ -46,6 +47,10 @@ describe('ContactComponent', () => {
         comp = fixture.componentInstance;
 
         fixture.detectChanges();
+    });
+
+    it('should have a defined FormGroup', () => {
+        expect(comp.contactForm.getRawValue()).toEqual({ name: '', email: '', message: '' });
     });
 
 });
